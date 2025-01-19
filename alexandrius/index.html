@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="searching">
+            <form>
+                <input type="text" id="searchField" placeholder="Enter your location...">
+                <button class="searchButton" type="submit"><img src="./img/Shape.png" alt="search"></button>
+            </form>
+        </div>  
+        <div class="content">
+            <div class="weatherInfo">
+				<div class="locka">
+                    <p class="cityName"></p>
+                    <img src="./img/Heart.png" alt="favourite" class="addBut">
+                </div>
+				<div class="weather-nums">
+					<h2 class="temperature"></h2>
+                	<img src="./img/weath.png" alt="weather" class="weatherImg">
+				</div>
+				<div class="feeling">
+					<p class="feel">Feels Like: <span class="fl"></span></p>
+					<p class="sun">Sunrize: <span class="sr"></span></p>
+					<p class="set">Sunset: <span class="ss"></span></p>
+				</div>
+				<div class="noon">
+					<p class="time">12:00</p>
+					<div class="genInfo">
+						<div class="genText">
+							<p class="temper">Temperature: <span class="temp"></span></p>
+							<p class="feelsLike">Feels like: <span class="fln"></span></p>
+						</div>
+						<img src="img/weath.png" alt="weather" class="genImg">
+					</div>
+				</div>
+				<div class="mid">
+					<p class="time">15:00</p>
+					<div class="genInfo">
+						<div class="genText">
+							<p class="temper">Temperature: <span class="temp"></span></p>
+							<p class="feelsLike">Feels like: <span class="fln"></span></p>
+						</div>
+						<img src="img/weath.png" alt="weather" class="genImg">
+					</div>
+				</div>
+				<div class="afternoon">
+					<p class="time">18:00</p>
+					<div class="genInfo">
+						<div class="genText">
+							<p class="temper">Temperature: <span class="temp"></span></p>
+							<p class="feelsLike">Feels like: <span class="fln"></span></p>
+						</div>
+						<img src="img/weath.png" alt="weather" class="genImg">
+					</div>
+				</div>
+            </div>
+            <div class="addedLocs">
+                <p class="addedText">Added Locations:</p>
+                <div class="locList">
+                    <div class="item"><p class="town">Amur</p><img src="./img/deleter.png" alt="delete" class="delBut"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="storage.js"></script>
+</body>
+</html>

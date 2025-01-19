@@ -1,0 +1,142 @@
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 600px;
+}
+
+
+.searching form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#searchField{
+    width: 100%;
+    height: 100%;
+    padding: 11px;
+}
+
+.searchButton{
+    padding: 11px;
+}
+
+.content{
+    display: flex;
+}
+
+.weatherInfo{
+    display: flex;
+    border-right: 1px solid black;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.weather-nums{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.temperature{
+    font-size: 70px;
+    text-align: left;
+}
+
+.weatherImg{
+    width: 78px;
+    height: 59px;
+}
+
+.locka{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.locka p{
+    font-size: 24px;
+}
+
+.locka img{
+    width: 23.35px;
+    height: 22px; 
+}
+
+.addedLocs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addedText{
+    padding: 20px;
+    border-bottom: 1px solid black;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+.locList{
+    padding: 15px;
+    max-height: 196px;
+    overflow-y: scroll;
+    margin-top: 15px;
+}
+
+.item{
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item img{
+    width: 10px;
+    height: 10px;
+}
+
+.feeling{
+    font-size: 21px;
+    line-height: 24.61px;
+}
+
+.noon{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.time{
+    margin-bottom: 15px;
+}
+
+.genInfo{
+    display: flex;
+    font-size: 18px;
+    line-height: 21.09px;
+    justify-content: space-between;
+}
+
+.genImg{
+    width: 40px;
+    height: 33.2px;
+}
+
+.genText{
+    justify-content: space-between;
+}
+
+.mid{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.afternoon{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
